@@ -1,0 +1,27 @@
+body {
+    height: 300vh;
+    margin-top: 6px;
+    padding: 20px;
+    background-color: #494D5F;
+    text-align: center;
+}
+
+header {
+    background-color: #A0D2EB;
+    position: fixed;
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 18px;
+}
+header li a {
+    color: #8458B3;
+}

@@ -1,27 +1,116 @@
-body {
-    height: 300vh;
-    margin-top: 6px;
-    padding: 20px;
-    background-color: #494D5F;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
-header {
-    background-color: #A0D2EB;
+body {
+    background: #222936;
+    color: #FBFAF5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
-    left: 0;  
-    right: 0;  
-    top: 0;  
-    height: 40px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 24px 12%;
+    z-index: 100;
+    background-color: #222936;
+}
+
+.logo {
+    font-size: 26px;
+    justify-content: left;
+    color: #FBFAF5;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #FBFAF5;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #05B3EB;
+    cursor: pointer;
+  
+}
+
+/* Image on Homepage 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    width: 700px;
+    height: 400px;
+} */
+
+.home {
     display: flex;
     align-items: center;
+    height: 100vh;
+    padding: 0 12%;
 }
-header * {
-    display: inline;
+
+.home-details {
+    max-width: auto;
 }
-header li {
-    margin: 18px;
+
+.home-details h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 2;
 }
-header li a {
-    color: #8458B3;
+
+.home-details h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #05B3EB;
 }
+
+.home-details p {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 24px 0 42px;
+    color: #EAEAE6;
+}
+
+/* Buttons on homepage
+
+.home-details .btn {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 54px;
+    background-color: aqua;
+}
+
+.btn a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 100%;
+    background-color: #05B3EB;
+    border: 2px solid #05B3EB;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #222936;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+} 
+*/

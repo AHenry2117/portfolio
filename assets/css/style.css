@@ -13,22 +13,12 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 10px;
     width: 100%;
-    padding: 24px 12%;
-    z-index: 100;
+    padding: 26px 8%;
     background-color: #222936;
-}
-
-.logo {
-    font-size: 26px;
-    justify-content: left;
-    color: #FBFAF5;
-    text-decoration: none;
-    font-weight: 700;
 }
 
 .navbar a {
@@ -46,30 +36,37 @@ body {
   
 }
 
-/* Image on Homepage 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
-    margin-bottom: 50px;
-    width: 700px;
-    height: 400px;
+/* Icons shift to right 
+.ref-links {
+    display: flex-end;
+    position: fixed;
+    align-items: right;
+    
+    width: 100px;
+}
+
+.ref-links {
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 3px solid #05B3EB;
 } */
+
 
 .home {
     display: flex;
     align-items: center;
+    float: right;
     height: 100vh;
     padding: 0 12%;
 }
 
 .home-details {
-    max-width: auto;
+    max-width: 850px;
 }
 
 .home-details h1 {
-    font-size: 52px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 2;
 }
@@ -81,27 +78,26 @@ img {
 }
 
 .home-details p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     margin: 24px 0 42px;
     color: #EAEAE6;
 }
 
-/* Buttons on homepage
+/* Buttons on homepage */
 
 .home-details .btn {
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    width: 340px;
     height: 54px;
-    background-color: aqua;
 }
 
 .btn a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 65px;
+    width: 150px;
     height: 100%;
     background-color: #05B3EB;
     border: 2px solid #05B3EB;
@@ -113,4 +109,3 @@ img {
     letter-spacing: 1px;
 
 } 
-*/
